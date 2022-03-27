@@ -1,0 +1,38 @@
+.container{
+    height: 100vh;
+    background-image: url("../../public/images/landing.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.content{
+    position: absolute;
+    color: white;
+    top: 180px;
+    left:60px;
+}
+
+.content h1{
+    font-weight: bold;
+    font-size:50px;
+}
+
+.content h2{
+    position: relative;
+    left: 50px;
+    font-weight: bold;
+}
+
+.content h3{
+    position: relative;
+    left: 150px;
+    top: 50px;
+    font-weight: bold;
+    border: 1px solid white;
+    width: fit-content;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
